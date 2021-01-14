@@ -16,3 +16,7 @@
 1. `https://osaka99.github.io/vrchat/`へアクセスし、表示されることを確認
 
 ※試しながらなので、実際はこの通りに進めていません。
+
+1. サイトマップ作成の指定
+1. Google Analyticsへの登録
+1. Google Search Consoleへの登録
