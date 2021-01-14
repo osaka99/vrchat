@@ -1,2 +1,4 @@
 theme: jekyll-theme-slate
 google_analytics: G-10FN64D8YF
+plugins:
+ - jekyll-sitemap
