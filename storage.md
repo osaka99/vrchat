@@ -20,3 +20,4 @@
 1. サイトマップ作成の指定
 1. Google Analyticsへの登録
 1. Google Search Consoleへの登録
+test2
