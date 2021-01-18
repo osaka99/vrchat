@@ -1,0 +1,12 @@
+<!-- VSCode/PlantUMLメモ。プレビュー表示はAlt+D。svg出力はCtrl+Shift+P PlantUML:Export Current Diagram→svg -->
+@startmindmap
+!include puml-theme-bluegray.puml
+title VRChatのアバター利用制限・見え方
+* VRChat
+** Oculus Quest2\n(単体)
+*** Quest対応のアバターのみ利用可
+*** PC接続の人がPC+Questのアバターを\n利用している場合、Questのアバターが見える。\n(通常PC対応のアバターより多少見劣る程度)\n\nPC専用のアバターを利用している場合、\n既定のロボットが見える\n(複数人いると見分けがつかない)
+** Oculus Quest2 \n+ Oculus Link\n(PC接続)
+*** PC対応のアバターのみ利用可\n(通常すべて利用可)
+*** PC接続の人はPCの、Questの人は\nQuestのアバターが見える。
+@endmindmap

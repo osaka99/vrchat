@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="540.625px" preserveAspectRatio="none" style="width:705px;height:540px;background:#00000000;" version="1.1" viewBox="0 0 705 540" width="705.2083px" zoomAndPan="magnify"><defs><linearGradient id="g1sb33h9c933r70" x1="50%" x2="50%" y1="0%" y2="100%"><stop offset="0%" stop-color="#F5F5F5"/><stop offset="100%" stop-color="#F2F2F2"/></linearGradient></defs><g><rect fill="url(#g1sb33h9c933r70)" height="53.2878" rx="4.1667" ry="4.1667" style="stroke:#C2C2C2;stroke-width:1.0416666666666667;" width="385.4167" x="132.2917" y="15.625"/><text fill="#009FDB" font-family="&quot;Verdana&quot;" font-size="20.8333" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="358.3333" x="145.8333" y="50.7935">VRChatのアバター利用制限・見え方</text><rect fill="#FEFECE" height="55.8431" rx="10.4167" ry="10.4167" style="stroke:#A80036;stroke-width:1.5625;" width="88.5417" x="10.4167" y="273.9665"/><text fill="#000000" font-family="&quot;Verdana&quot;" font-size="14.5833" lengthAdjust="spacingAndGlyphs" textLength="51.0417" x="29.1667" y="307.8552">VRChat</text><rect fill="#FEFECE" height="74.1862" rx="10.4167" ry="10.4167" style="stroke:#A80036;stroke-width:1.5625;" width="135.4167" x="151.0417" y="169.7754"/><text fill="#000000" font-family="&quot;Verdana&quot;" font-size="14.5833" lengthAdjust="spacingAndGlyphs" textLength="97.9167" x="169.7917" y="203.6641">Oculus Quest2</text><text fill="#000000" font-family="&quot;Verdana&quot;" font-size="14.5833" lengthAdjust="spacingAndGlyphs" textLength="39.5833" x="169.7917" y="222.0072">(単体)</text><rect fill="#FEFECE" height="55.8431" rx="10.4167" ry="10.4167" style="stroke:#A80036;stroke-width:1.5625;" width="252.0833" x="338.5417" y="85.5794"/><text fill="#000000" font-family="&quot;Verdana&quot;" font-size="14.5833" lengthAdjust="spacingAndGlyphs" textLength="214.5833" x="357.2917" y="119.4682">Quest対応のアバターのみ利用可</text><path d="M286.4583,206.8685 L296.875,206.8685 C312.5,206.8685 312.5,113.501 328.125,113.501 L338.5417,113.501 " fill="none" style="stroke:#009FDB;stroke-width:3.125;"/><rect fill="#FEFECE" height="165.9017" rx="10.4167" ry="10.4167" style="stroke:#A80036;stroke-width:1.5625;" width="354.1667" x="338.5417" y="162.2559"/><text fill="#000000" font-family="&quot;Verdana&quot;" font-size="14.5833" lengthAdjust="spacingAndGlyphs" textLength="247.9167" x="357.2917" y="196.1446">PC接続の人がPC+Questのアバターを</text><text fill="#000000" font-family="&quot;Verdana&quot;" font-size="14.5833" lengthAdjust="spacingAndGlyphs" textLength="316.6667" x="357.2917" y="214.4877">利用している場合、Questのアバターが見える。</text><text fill="#000000" font-family="&quot;Verdana&quot;" font-size="14.5833" lengthAdjust="spacingAndGlyphs" textLength="292.7083" x="357.2917" y="232.8308">(通常PC対応のアバターより多少見劣る程度)</text><text fill="#000000" font-family="&quot;Verdana&quot;" font-size="14.5833" lengthAdjust="spacingAndGlyphs" textLength="0" x="361.4583" y="251.1739"/><text fill="#000000" font-family="&quot;Verdana&quot;" font-size="14.5833" lengthAdjust="spacingAndGlyphs" textLength="267.7083" x="357.2917" y="269.517">PC専用のアバターを利用している場合、</text><text fill="#000000" font-family="&quot;Verdana&quot;" font-size="14.5833" lengthAdjust="spacingAndGlyphs" textLength="160.4167" x="357.2917" y="287.8601">既定のロボットが見える</text><text fill="#000000" font-family="&quot;Verdana&quot;" font-size="14.5833" lengthAdjust="spacingAndGlyphs" textLength="214.5833" x="357.2917" y="306.2032">(複数人いると見分けがつかない)</text><path d="M286.4583,206.8685 L296.875,206.8685 C312.5,206.8685 312.5,245.2067 328.125,245.2067 L338.5417,245.2067 " fill="none" style="stroke:#009FDB;stroke-width:3.125;"/><path d="M98.9583,301.888 L109.375,301.888 C125,301.888 125,206.8685 140.625,206.8685 L151.0417,206.8685 " fill="none" style="stroke:#009FDB;stroke-width:3.125;"/><rect fill="#FEFECE" height="92.5293" rx="10.4167" ry="10.4167" style="stroke:#A80036;stroke-width:1.5625;" width="139.5833" x="151.0417" y="387.3291"/><text fill="#000000" font-family="&quot;Verdana&quot;" font-size="14.5833" lengthAdjust="spacingAndGlyphs" textLength="97.9167" x="169.7917" y="421.2179">Oculus Quest2</text><text fill="#000000" font-family="&quot;Verdana&quot;" font-size="14.5833" lengthAdjust="spacingAndGlyphs" textLength="89.5833" x="169.7917" y="439.561">+ Oculus Link</text><text fill="#000000" font-family="&quot;Verdana&quot;" font-size="14.5833" lengthAdjust="spacingAndGlyphs" textLength="59.375" x="169.7917" y="457.9041">(PC接続)</text><rect fill="#FEFECE" height="74.1862" rx="10.4167" ry="10.4167" style="stroke:#A80036;stroke-width:1.5625;" width="232.2917" x="342.7083" y="348.9909"/><text fill="#000000" font-family="&quot;Verdana&quot;" font-size="14.5833" lengthAdjust="spacingAndGlyphs" textLength="194.7917" x="361.4583" y="382.8796">PC対応のアバターのみ利用可</text><text fill="#000000" font-family="&quot;Verdana&quot;" font-size="14.5833" lengthAdjust="spacingAndGlyphs" textLength="127.0833" x="361.4583" y="401.2227">(通常すべて利用可)</text><path d="M290.625,433.5938 L301.0417,433.5938 C316.6667,433.5938 316.6667,386.084 332.2917,386.084 L342.7083,386.084 " fill="none" style="stroke:#009FDB;stroke-width:3.125;"/><rect fill="#FEFECE" height="74.1862" rx="10.4167" ry="10.4167" style="stroke:#A80036;stroke-width:1.5625;" width="262.5" x="342.7083" y="444.0104"/><text fill="#000000" font-family="&quot;Verdana&quot;" font-size="14.5833" lengthAdjust="spacingAndGlyphs" textLength="225" x="361.4583" y="477.8992">PC接続の人はPCの、Questの人は</text><text fill="#000000" font-family="&quot;Verdana&quot;" font-size="14.5833" lengthAdjust="spacingAndGlyphs" textLength="185.4167" x="361.4583" y="496.2423">Questのアバターが見える。</text><path d="M290.625,433.5938 L301.0417,433.5938 C316.6667,433.5938 316.6667,481.1035 332.2917,481.1035 L342.7083,481.1035 " fill="none" style="stroke:#009FDB;stroke-width:3.125;"/><path d="M98.9583,301.888 L109.375,301.888 C125,301.888 125,433.5938 140.625,433.5938 L151.0417,433.5938 " fill="none" style="stroke:#009FDB;stroke-width:3.125;"/><!--MD5=[0f683811d41175abc8e55c14a9d00d85]
+@startmindmap
+!include puml-theme-bluegray.puml
+title VRChatのアバター利用制限・見え方
+* VRChat
+** Oculus Quest2\n(単体)
+*** Quest対応のアバターのみ利用可
+*** PC接続の人がPC+Questのアバターを\n利用している場合、Questのアバターが見える。\n(通常PC対応のアバターより多少見劣る程度)\n\nPC専用のアバターを利用している場合、\n既定のロボットが見える\n(複数人いると見分けがつかない)
+** Oculus Quest2 \n+ Oculus Link\n(PC接続)
+*** PC対応のアバターのみ利用可\n(通常すべて利用可)
+*** PC接続の人はPCの、Questの人は\nQuestのアバターが見える。
+@endmindmap
+
+@startmindmap
+
+
+
+skinparam backgroundColor transparent
+
+
+
+
+
+
+
+
+
+skinparam defaultFontName        "Verdana"
+skinparam defaultFontSize        12
+skinparam dpi                    100
+skinparam shadowing              false
+skinparam roundcorner            20
+skinparam ParticipantPadding     30
+skinparam BoxPadding             40
+skinparam Padding                8
+skinparam ArrowColor             #959595
+skinparam stereotype {
+    CBackgroundColor #f5f5f5
+    CBorderColor #c2c2c2
+    ABackgroundColor #c4ca33
+    ABorderColor #919700
+    IBackgroundColor #d95555
+    IBorderColor #a62222
+    EBackgroundColor #ee9033
+    EBorderColor #bb5d00
+    NBackgroundColor #3786be
+    NBorderColor #04538b
+}
+skinparam title {
+	FontColor	                 #009fdb
+	BorderColor	                 #c2c2c2
+	FontSize	    	         20
+	BorderRoundCorner            8
+	BorderThickness 	         1
+	BackgroundColor              #f5f5f5-#f2f2f2
+}
+
+
+skinparam legend {
+	BackgroundColor #f2f2f2
+	BorderColor #c2c2c2
+	FontColor #5a5a5a
+}
+
+skinparam swimlane {
+	BorderColor #0568ae
+	BorderThickness 2
+	TitleBackgroundColor  #f5f5f5-#f2f2f2
+	TitleFontColor #009fdb
+}
+
+
+skinparam activity {
+	FontColor #fff
+	BorderColor #009fdb
+	BackgroundColor #33b2e2-#009fdb
+	BarColor #b5bd00
+	StartColor #0568ae
+	EndColor #0568ae
+	DiamondBackgroundColor #f5f5f5-#c2c2c2
+  	DiamondBorderColor #c2c2c2
+	DiamondFontColor #5a5a5a
+}
+
+
+skinparam participant {
+	
+	FontColor #fff
+	BorderColor #33b2e2
+	BackgroundColor #33b2e2-#009fdb
+
+	ParticipantBorderThickness 2
+}
+
+
+skinparam actor {
+	
+	FontColor #fff
+	BorderColor #33b2e2
+	BackgroundColor #33b2e2-#009fdb
+
+	FontColor #009fdb
+}
+
+
+skinparam arrow {
+	Thickness 3
+	Color #009fdb
+	FontColor #5a5a5a
+}
+
+
+skinparam sequence {
+	BorderColor #009fdb
+	TitleFontColor #009fdb
+	BackgroundColor transparent
+	StartColor #009fdb
+	EndColor #009fdb
+	BoxBackgroundColor #d2d2d2
+	BoxBorderColor #959595
+	BoxFontColor #5a5a5a
+	LifeLineBorderColor #c2c2c2
+	LifeLineBorderThickness 2
+	LifeLineBackgroundColor #f5f5f5
+	GroupBorderColor #959595
+	GroupFontColor #5a5a5a
+	GroupHeaderFontColor #0568ae
+	DividerBackgroundColor #fff-#d2d2d2
+    DividerBorderColor #959595
+    DividerBorderThickness 2
+    DividerFontColor #5a5a5a
+	ReferenceBackgroundColor transparent
+	ReferenceBorderColor #959595
+	ReferenceFontColor #5a5a5a
+	ReferenceHeaderFontColor #0568ae
+}
+
+
+skinparam partition {
+	BorderColor #009fdb
+	FontColor #009fdb
+	BackgroundColor transparent
+}
+
+
+skinparam collections {
+	
+	FontColor #fff
+	BorderColor #33b2e2
+	BackgroundColor #33b2e2-#009fdb
+
+}
+
+
+skinparam control {
+	
+	FontColor #fff
+	BorderColor #33b2e2
+	BackgroundColor #33b2e2-#009fdb
+
+	FontColor #009fdb
+}
+
+
+skinparam entity {
+	
+	FontColor #fff
+	BorderColor #33b2e2
+	BackgroundColor #33b2e2-#009fdb
+
+	FontColor #009fdb
+}
+
+
+skinparam boundary {
+	
+	FontColor #fff
+	BorderColor #33b2e2
+	BackgroundColor #33b2e2-#009fdb
+
+	FontColor #009fdb
+}
+
+
+skinparam agent {
+	BackgroundColor #orange
+	BorderColor #999999
+	FontColor #333333
+}
+
+
+skinparam note {
+	BorderThickness 1
+	BackgroundColor #3786be-#0568ae
+	BorderColor #0568ae
+	FontColor #fff
+}
+
+
+skinparam artifact {
+	BackgroundColor #fff-#d2d2d2
+	BorderColor #c2c2c2
+	FontColor #5a5a5a
+}
+
+
+skinparam component {
+	
+	FontColor #fff
+	BorderColor #33b2e2
+	BackgroundColor #33b2e2-#009fdb
+
+}
+
+
+skinparam interface {
+	BackgroundColor  #d95555
+	BorderColor  #cf2a2a
+	FontColor #5a5a5a
+}
+
+
+skinparam storage {
+	BackgroundColor #ee9033-#ea7400
+  	BorderColor #ea7400
+	FontColor #fff
+}
+
+
+skinparam node {
+	BackgroundColor #f5f5f5-#f2f2f2
+	BorderColor #c2c2c2
+	FontColor #009fdb
+}
+
+
+skinparam cloud {
+	BackgroundColor #F2FCFE-#eeeeee
+	BorderColor #F2FCFE
+	FontColor #009fdb
+}
+
+
+skinparam database {
+	
+	FontColor #fff
+	BorderColor #33b2e2
+	BackgroundColor #33b2e2-#009fdb
+
+	BorderColor #007faf
+}
+
+
+skinparam class {
+	
+	FontColor #fff
+	BorderColor #33b2e2
+	BackgroundColor #33b2e2-#009fdb
+
+	HeaderBackgroundColor #33b2e2-#009fdb
+	StereotypeFontColor #5a5a5a
+	BorderThickness 1
+	AttributeFontColor #d2d2d2
+	AttributeFontSize 11
+}
+
+
+skinparam object {
+	
+	FontColor #fff
+	BorderColor #33b2e2
+	BackgroundColor #33b2e2-#009fdb
+
+	StereotypeFontColor #5a5a5a
+	BorderThickness 1
+	AttributeFontColor #d2d2d2
+	AttributeFontSize 11
+}
+
+
+skinparam usecase {
+	
+	FontColor #fff
+	BorderColor #33b2e2
+	BackgroundColor #33b2e2-#009fdb
+
+	BorderThickness 2
+	StereotypeFontColor #009fdb
+}
+
+
+skinparam rectangle {
+		FontColor #5a5a5a
+	BorderColor #c2c2c2
+	BackgroundColor #fff-#fefefe
+	BorderThickness 2
+	StereotypeFontColor #009fdb
+}
+
+
+skinparam package {
+	FontColor #009fdb
+	BorderColor #33b2e2
+	BackgroundColor transparent
+	BorderThickness 2
+}
+
+
+skinparam folder {
+	BackgroundColor #fff-#f5f5f5
+  	BorderColor #ea7400
+	FontColor #ea7400
+	BorderThickness 2
+}
+
+
+skinparam frame {
+	BackgroundColor #fff-#f5f5f5
+  	BorderColor #0568ae
+	FontColor #0568ae
+	BorderThickness 2
+}
+
+
+skinparam state {
+	
+	FontColor #fff
+	BorderColor #33b2e2
+	BackgroundColor #33b2e2-#009fdb
+
+	BorderColor #007faf
+	StartColor #0568ae
+	EndColor #0568ae
+	AttributeFontColor #d2d2d2
+	AttributeFontSize 11
+}
+
+
+skinparam queue {
+	
+	FontColor #fff
+	BorderColor #33b2e2
+	BackgroundColor #33b2e2-#009fdb
+
+}
+
+
+skinparam card {
+	BackgroundColor #3786be-#0568ae
+	BorderColor #0568ae
+	FontColor #fff
+}
+
+
+skinparam file {
+	BackgroundColor #f5f5f5-#f2f2f2
+	BorderColor #0568ae
+	FontColor #5a5a5a
+
+}
+
+
+title VRChatのアバター利用制限・見え方
+* VRChat
+** Oculus Quest2\n(単体)
+*** Quest対応のアバターのみ利用可
+*** PC接続の人がPC+Questのアバターを\n利用している場合、Questのアバターが見える。\n(通常PC対応のアバターより多少見劣る程度)\n\nPC専用のアバターを利用している場合、\n既定のロボットが見える\n(複数人いると見分けがつかない)
+** Oculus Quest2 \n+ Oculus Link\n(PC接続)
+*** PC対応のアバターのみ利用可\n(通常すべて利用可)
+*** PC接続の人はPCの、Questの人は\nQuestのアバターが見える。
+@endmindmap
+
+PlantUML version 1.2020.22(Sun Dec 06 18:36:27 JST 2020)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) Client VM
+Default Encoding: MS932
+Language: ja
+Country: JP
+--></g></svg>
