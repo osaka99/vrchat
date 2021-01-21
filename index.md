@@ -1,7 +1,11 @@
 ---
+layout: default
 title: VRChatをOculus Quest2で楽しむには
 description: VRChatをOculus Quest2単体やOculus LinkでPC接続して楽しむための情報を載せています。
 lang: ja_JP
+author: osaka99
+date: 2021-01-18T00:00+09:00
+last_modified_at: 2021-01-21T19:08+09:00
 ---
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-10FN64D8YF"></script>
@@ -15,10 +19,10 @@ lang: ja_JP
 
 # {{ page.title }}
 
-VRChatをOculus Quest2で楽しむための情報がうまく探せなかったり、記事が古かったりしたため、ポイントを絞ってまとめました。(最終更新日:2021/01/18)
+VRChatをOculus Quest2で楽しむための情報がうまく探せなかったり、記事が古かったりしたため、ポイントを絞ってまとめました。(最終更新日:{{ page.last_modified_at | date: "%Y年%m月%d日" }})
 
 - [公式](#公式)
-- [遊び方(作成未定)](#遊び方)
+- [遊び方](#遊び方)
 - [環境・操作](#環境操作)
   - [Oculus Quest2の各部名称](#oculus-quest2の各部名称)
   - [Oculus Quest2の操作](#oculus-quest2の操作)
@@ -28,6 +32,7 @@ VRChatをOculus Quest2で楽しむための情報がうまく探せなかった�
   - [Oculus Quest2+Oculus LinkでVRChatにPC接続しマイクが認識されない](#oculus-quest2oculus-linkでvrchatにpc接続しマイクが認識されない)
   - [左右にAction Menuを出す](#左右にaction-menuを出す)
 - [倉庫](#倉庫)
+- [連絡先](#連絡先)
 
 ## 公式
 
@@ -37,7 +42,15 @@ VRChatをOculus Quest2で楽しむための情報がうまく探せなかった�
 
 ## 遊び方
 
-作成未定
+実際にやってみないと分からないことが多すぎるため、まず下記をおすすめします（）
+
+|No|内容|
+|--|--|
+|1|VRChatを起動してアナウンス通りにすすめ、なんとかしてVRChatのホームにたどりつく。|
+|2|B or Yボタンを押して通常メニューからSettingsを開いて、しゃべってみてMicrophoneが反応することを確認する。|
+|3|通常メニューのWorldを開いて、Seachを選択し、キーボードを使って「jp」と打ち込み、OKする。|
+|4|「[JP] Tutorial world」を選択し、Goし、worldに入る。|
+|5|人が来たら挨拶して話しかける。初心者と言えば大抵の人はいろんなことを教えてくれる。その人に楽しい遊び方を聞きましょう（）|
 
 ## 環境・操作
 
@@ -109,8 +122,8 @@ VRChatをOculus Quest2で楽しむための情報がうまく探せなかった�
 |1|Oculus Quest2を起動してOculus Linkを挿し、データへのアクセスを許可してPCと接続する。|
 |2|Oculus Quest2のメニュー/設定から「Oculus Link」を選択してRiftにする。|
 |3|VRChatを起動してログインし、Settingを開いて、しゃべってみてMicrophoneの「Headsdet Microphone(Oculus Virtual Audio Device)」が反応するか確認する。|
-|4|反応しなかったら、Oculusボタンを押し、Riftのメニューから「Oculus Linkをオフにする」を選択してオフにし、データのアクセスを許可を求められれば許可する。|
-|5|Oculus Quest2のメニュー/設定から「Oculus Link」を選択して再度Riftにする。|
+|4|反応しなかったら、Oculusボタンを押し、Riftのメニューから「Oculus Linkをオフにする」を選択し「オフにする」を選択すると、Oculus Quest2のメニュー/設定に戻り、少し経つと「Oculus Link」が一旦消える。データのアクセスを許可を求められれば許可する。<br>※一旦消える前に「Oculus Link」を選ぶとVRChatで地面に潜らず再起動する必要も無く手間が少なくなる。|
+|5|Oculus Quest2のメニュー/設定に再び「Oculus Link」が表示されるので、選択して再度Riftにする。|
 |6|VRChat画面に戻る(私の環境ではこの時地面に潜っていることがあり、その場合はVRChatを再起動する。私の場合はOculusボタンを押し、Riftのメニューから「ホーム」を選択してVRChatを閉じています)|
 |7|再びVRChatにログインしてSettingを開き、しゃべってみてMicrophoneの「Headsdet Microphone(Oculus Virtual Audio Device)」反応するか確認する。|
 
@@ -133,6 +146,12 @@ VRChatをOculus Quest2で楽しむための情報がうまく探せなかった�
 
 ## 倉庫
 
+特に必要では無くなったものの倉庫
+
 [倉庫](storage)
 
-※特に必要では無くなったものの倉庫
+## 連絡先
+
+何かあればTwitterの方に連絡ください。
+
+[Twitter](https://twitter.com/sushi_osaka99)

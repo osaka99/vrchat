@@ -1,7 +1,11 @@
 ---
+layout: default
 title: 倉庫
 Sdescription: 倉庫
 lang: ja_JP
+author: osaka99
+date: 2021-01-18T00:00+09:00
+last_modified_at: 2021-01-21T19:08+09:00
 ---
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-10FN64D8YF"></script>
@@ -17,7 +21,7 @@ lang: ja_JP
 
 [{{ site.title }}](./) > {{ page.title }}
 
-特に必要では無くなったものの倉庫
+特に必要では無くなったものの倉庫(最終更新日:{{ page.last_modified_at | date: "%Y年%m月%d日" }})
 
 ## Oculus Touch インプットマッピング
 
