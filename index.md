@@ -5,7 +5,7 @@ description: VRChatをOculus Quest2単体やOculus LinkでPC接続して楽し�
 lang: ja_JP
 author: osaka99
 date: 2021-01-18T00:00+09:00
-last_modified_at: 2021-01-21T19:08+09:00
+last_modified_at: 2021-01-27T23:13+09:00
 ---
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-10FN64D8YF"></script>
@@ -28,8 +28,10 @@ VRChatをOculus Quest2で楽しむための情報がうまく探せなかった�
   - [Oculus Quest2の操作](#oculus-quest2の操作)
   - [VRChatのアバター利用制限・見え方](#vrchatのアバター利用制限見え方)
   - [VRChatのアバターをQuest対応にする](#vrchatのアバターをquest対応にする)
-  - [VRChat Oculus Quest2のハンドサイン](#vrchat-oculus-quest2のハンドサイン)
+  - [VRChat+Oculus Quest2のボタン操作](#vrchatoculus-quest2のボタン操作)
+  - [VRChat+Oculus Quest2のハンドサイン](#vrchatoculus-quest2のハンドサイン)
   - [Oculus Quest2+Oculus LinkでVRChatにPC接続しマイクが認識されない](#oculus-quest2oculus-linkでvrchatにpc接続しマイクが認識されない)
+  - [Oculus Quest2+Virtual DesktopでVRChatに接続する](#oculus-quest2virtual-desktopでvrchatに接続する)
   - [左右にAction Menuを出す](#左右にaction-menuを出す)
 - [倉庫](#倉庫)
 - [連絡先](#連絡先)
@@ -61,19 +63,19 @@ VRChatをOculus Quest2で楽しむための情報がうまく探せなかった�
 |1|頭にかぶるものはOculus Quest2 ヘッドセット|
 |2|ヘッドセットの右側にあるボタンが電源ボタン|
 |3|ヘッドセットの下側にあるボタンが音量ボタン|
-|4|ヘッドセットの左側にある差し込み口がOculus Linkとイヤホンの差し込み口|
-|5|コントローラーの名称はOculus Touch|
-|6|右コントローラーにはAボタン、Bボタン、Oculusボタン(⊂⊃ボタン)、サムスティック(上から押し込んでボタンにもなる)、サムレスト(ABボタンの左側)、トリガーボタン、グリップボタン|
-|7|左コントローラーにはXボタン、Yボタン、Menuボタン(三ボタン)、サムスティック(上から押し込んでボタンにもなる)、サムレスト(YXボタンの右側)、トリガーボタン、グリップボタン|
+|4|ヘッドセットの左側にある差し込み口がOculus Link(オキュラス リンク)とイヤホンの差し込み口|
+|5|コントローラーの名称はOculus Touch(オキュラス タッチ)|
+|6|右コントローラーにはAボタン、Bボタン、Oculus(オキュラス)ボタン、Stick(スティック)、Trigger(トリガー)ボタン、Grip(グリップ)ボタン|
+|7|左コントローラーにはXボタン、Yボタン、Menu(メニュー)ボタン、Stick(スティック)、Trigger(トリガー)ボタン、Grip(グリップ)ボタン|
 
 ### Oculus Quest2の操作
 
 |判定|内容|
 |--|--|
-|Press判定|A、B、X、Yボタン、Oculusボタン、Menuボタン、左右コントローラーのサムスティックボタン、トリガーボタン、グリップボタン|
-|接触判定|A、B、X、Yボタン、左右コントローラーのサムスティック、トリガーボタン、グリップボタン<br>※指などでかるく触れれば判定されます。|
-|長押し判定|Oculusボタン、Menuボタン|
-|その他|ヘッドセットやコントローラーの向き変更、移動|
+|Touch|A、B、X、Yボタン、Oculusボタン、Menuボタン、左右コントローラーのStickボタン(上から押し込むとボタンになる)、Triggerボタン、Gripボタン|
+|Click|〃|
+|Hold|(=長押し)　〃|
+|その他|Stickを傾ける。ヘッドセットやコントローラーの向き変更、移動|
 
 ### VRChatのアバター利用制限・見え方
 
@@ -98,20 +100,73 @@ VRChatをOculus Quest2で楽しむための情報がうまく探せなかった�
 |6|InspectorのPipeline ManagerでBlueprint IDにPC対応アバターのIDを設定する(PC対応アバターをアップロードすると、IDが自動で設定されるため、続けて作業した場合、この作業は不要なはず)|
 |7|PC対応アバターのときと同様の操作でVRChatにアップロードする。|
 
-### VRChat Oculus Quest2のハンドサイン
+### VRChat+Oculus Quest2のボタン操作
+
+Normal Avatar + TypeA-Default
+
+|操作|Quest|Oculus Link|SteamVR|
+|--|--|--|--|
+|A Touch|Right Hand Sign|-|-|
+|A Click|Jump|-|-|
+|A Hold|None|-|-|
+|B Touch|Right Hand Sign|-|-|
+|B Click|Right Qick Menu|-|-|
+|B Hold|Right Action Menu|-|-|
+|Oculus Touch|None|-|-|
+|Oculus Click|Quest Menu|-|-|
+|Oculus Hold|???|None|???|
+|Right Stick Touch|Right Hand Sign|-|-|
+|Right Stick Click|None|-|-|
+|Right Stick Hold|None|-|-|
+|Right Trigger Touch|Right Hand Sign|-|-|
+|Right Trigger Click|None|-|-|
+|Right Trigger Hold|None|-|-|
+|Right Grip Touch|None|-|-|
+|Right Grip Click|Right Hand Sign|-|-|
+|Right Grip Hold|None|-|-|
+|X Touch|Hand Sign|-|-|
+|X Click|Mute Self|-|-|
+|X Hold|None|-|-|
+|Y Touch|Hand Sign|-|-|
+|Y Click|Left Qick Menu|-|-|
+|Y Hold|Left Action Menu|-|-|
+|Menu Touch|None|-|-|
+|Menu Click|Left Quick Menu|-|SteamVR VRChat Menu|
+|Menu Hold|Left Action Menu|-|Switch to Desktop|
+|Left Stick Touch|Left Hand Sign|-|-|
+|Left Stick Click|None|-|-|
+|Left Stick Hold|None|-|-|
+|Left Trigger Touch|Left Hand Sign|-|-|
+|Left Trigger Click|None|-|-|
+|Left Trigger Hold|None|-|-|
+|Left Grip Touch|None|-|-|
+|Left Grip Click|Left Hand Sign|-|-|
+|Left Grip Hold|None|-|-|
+
+### VRChat+Oculus Quest2のハンドサイン
 
 ほとんどのアバターにはハンドサインによる表情等の変化に対応しており、覚えておいて損はない操作になるはずです(割り当てはアバター側の設定)
 
+Touch+ = Touch or Click or Hold、Click+ = Click or Hold
+
 |Sign|内容|
 |--|--|
-|Default|トリガーボタンPress|
-|Fist|A、B、X、Yボタン、サムスティックのいずれか接触+トリガーボタンPress+グリップボタンPress|
-|HandOpen|何も接触・Pressなし|
-|FingerPoint|A、B、X、Yボタン、サムスティックのいずれか接触+グリップボタンPress|
-|Victory|A、B、X、Yボタン、左右サムスティックのいずれか接触|
-|Rock'n Roll|A、B、X、Yボタン、左右サムスティックのいずれか接触+トリガーボタンPress|
-|Handgun|グリップボタンPress|
-|Thumbs-Up|トリガーボタンPress+グリップボタンPress|
+|Right Default|Right Trigger Touch+|
+|Left Default|Left Trigger Touch+|
+|Right Fist|(A or B or Right Stick)Touch+ & Right Trigger Touch+ & Right Grip Click+|
+|Left Fist|(X or Y or Left Stick)Touch+ & Left Trigger Touch+ & Left Grip Click+|
+|Right HandOpen|(A or B or Right Stick or Right Trigger)No Touch & Right Grip No (Click or Hold)|
+|Left HandOpen|(X or Y or Left Stick or Left Trigger)No Touch & Left Grip No (Click or Hold)|
+|Right FingerPoint|(A or B or Right Stick)Touch+ & Right Grip Click+|
+|Left FingerPoint|(X or Y or Left Stick)Touch+ & Left Grip Click+|
+|Right Victory|(A or B or Right Stick)Touch+|
+|Left Victory|(X or Y or Left Stick)Touch+|
+|Right Rock'n Roll|(A or B or Right Stick)Touch+ & Right Trigger Click+|
+|Left Rock'n Roll|(X or Y or Left Stick)Touch+ & Left Trigger Click+|
+|Right Handgun|Right Grip Click+|
+|Left Handgun|Left Grip Click+|
+|Right Thumbs-Up|Right Trigger Click+ & Right Grip Click+|
+|Left Thumbs-Up|Left Trigger Click+ & Left Grip Click+|
 
 ### Oculus Quest2+Oculus LinkでVRChatにPC接続しマイクが認識されない
 
@@ -133,14 +188,34 @@ VRChatをOculus Quest2で楽しむための情報がうまく探せなかった�
 
 ※[Oculus QuestとOculus Linkのトラブルシューティング](https://support.oculus.com/358707732169608/)
 
+### Oculus Quest2+Virtual DesktopでVRChatに接続する
+
+![virtualdesktop](assets/virtualdesktop.svg)
+
+※「Virtual Desktop VR Patch」はFacebookからの要請で削除したSteamVR接続機能を復活させるものとのことです。Oculusの承認は得ていないためグレー扱いになりますが、Oculus側も黙認しているようです。Virtual Desktopを信じるのであれば特に問題は無いと思われます。
+
+|No|内容|
+|--|--|
+|0|前提：Oculus QuestのVirtual Desktopアプリを購入できること。VRChatが動作するスペックで、QuestとUSB接続できるPCを保持していること。Steamのアカウントを持っていること。自己責任でOculusが認可していないVitual Desktopのパッチを入れることができること。|
+|1|各アプリをインストールする(順不同のはず)<br>・Oculus Quest2のVirtual Desktopを購入しインストール<br>・PCにVirtual Desktop Streamerをインストール<br>・SteamでSteamVR、VRChatをインストール|
+|2|スマホアプリ/Oculusの設定からOculus Quest2/その他の設定/開発者モードを開きONにする。「開発者になろう」が出てきたら「作成開始」する。<br>※作成後、開発者モードになっていることを確認する(私は「作成開始」したあと開発者モードが外れていました)|
+|3|[Oculusの開発者サイト](https://developer.oculus.com/)にログインして新しい組織を作成し、開発/ダウンロードを開き、Developer Toolsから「Oculus ADB Drivers」を選んでダウンロードする(zipファイル)|
+|4|ダウンロードしたzipファイルを解凍し、「usb_driver」フォルダの「android_winusb.inf」を選択して右クリックメニューからインストールする。|
+|5|[SideQuestサイト](https://sidequestvr.com)にアクセスして、SideQuestをダウンロードし、インストールする。インストール後にSideQuestを起動しておく。|
+|6|Oculus Quest2とPCをUSBで接続する。その時Quest画面の方で「USBのデバッグを許可するか」聞かれるので許可する。<br>※SideQuest画面左上アイコンが緑になっていることを確認する。|
+|7|SideQuestの検索窓から「Virtual Desktop VR Patch」を検索し、インストールする(「INSTALL TO HEAD SET」を選択)|
+|8|Oculus Quest2のVirtual Desktopを再起動してPCに接続し、「Launch SteamVR」を選択してSteamVRを起動する。|
+|9|Steam版のVRChatを起動する(左コントローラーのMenuボタンから選択可)|
+|10|動作が確認できれば、スマホアプリ/Oculusの開発者モードをOFFにしておくのがよいでしょう。|
+
 ### 左右にAction Menuを出す
 
 左右合わせて２つのAction Menuを同時に出すための手順となります。
 
 |No|内容|
 |--|--|
-|1|右側を普通に出す(B、Yボタンの通常メニューからEmote->Action Menu)|
-|2|左コントローラーのMenuボタンを長押しAction Menuを出す。|
+|1|右側のAction Menuを普通に出す<br>→(B or Y)ボタンClickからQuick Menuを表示しEmote->Action Menu<br>もしくはBボタンの長押し|
+|2|左側のAction Menuを出す。<br>→Yボタンの長押し<br>もしくは左コントローラーのMenuボタンを長押し|
 
 ※音無テム(VRChatアバター)で、片方はフキダシテキスト選択、もう片方はフキダシ表示をするときに必要
 

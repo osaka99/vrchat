@@ -1,0 +1,24 @@
+<!-- VSCode/PlantUMLメモ。プレビュー表示はAlt+D。svg出力はCtrl+Shift+P PlantUML:Export Current Diagram→svg -->
+@startuml
+title VRChat+無線LAN環境
+node "<<デバイス>>\nOculus Quest 2" as quest {
+  node "<<環境>>\nVirtual Desktop\n+<font color=red>Virtual Desktop VR Patch</font>" as vd
+  note bottom
+  Patchを入れるため、
+  下記を設定する。
+  ・開発者モードON
+  ・Oculus ADB Drivers
+  ・SideQuest
+  end note
+}
+node "<<デバイス>>\nLAN機器" as lan
+node "<<デバイス>>\nPC" as pc {
+  node "<<環境>>\nVirtual Desktop Streamer" as vds {
+    node "<<環境>>\nSteam VR" as steamvr {
+      node "<<環境>>\nVRChat(Steam)" as vrchat
+    }
+  }
+}
+vd -down-> lan : <<無線LAN>>
+lan -down-> vrchat : <<有線LAN>>
+@enduml
