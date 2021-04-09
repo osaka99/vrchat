@@ -5,7 +5,7 @@ description: VRChatをOculus Quest2単体やOculus LinkでPC接続して楽し�
 lang: ja_JP
 author: osaka99
 date: 2021-01-18T00:00+09:00
-last_modified_at: 2021-01-27T23:13+09:00
+last_modified_at: 2021-04-09T18:50+09:00
 ---
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-10FN64D8YF"></script>
@@ -53,6 +53,9 @@ VRChatをOculus Quest2で楽しむための情報がうまく探せなかった�
 |3|通常メニューのWorldを開いて、Seachを選択し、キーボードを使って「jp」と打ち込み、OKする。|
 |4|「[JP] Tutorial world」を選択し、Goし、worldに入る。|
 |5|人が来たら挨拶して話しかける。初心者と言えば大抵の人はいろんなことを教えてくれる。その人に楽しい遊び方を聞きましょう（）|
+|*|私は英会話をすることが目的でVRChatを始めており、今は大抵下記のワールドに出没しています。|
+|*|1)「[EN-JP Language Exchange](https://vrchat.com/home/world/wrld_153be667-a86e-4aaf-9eed-921bd568ee9b)」→日本語を学びたい英語話者や英語を学びたい日本人が訪れる。英語日本語言語交換イベント用に作られたワールド。|
+|*|2)「[Japan Srine](https://vrchat.com/home/world/wrld_736bad27-4663-4346-a345-26e1e859d94e)」→とにかく人が多く誰かはいるが日本人は少なめです。|
 
 ## 環境・操作
 
@@ -170,14 +173,14 @@ Touch+ = Touch or Click or Hold、Click+ = Click or Hold
 
 ### Oculus Quest2+Oculus LinkでVRChatにPC接続しマイクが認識されない
 
-既知の不具合らしく、下記のような手順を取る必要があります。
+既知の不具合らしく、下記のような手順を取る必要があります(全然直らない)
 
 |No|内容|
 |--|--|
 |1|Oculus Quest2を起動してOculus Linkを挿し、データへのアクセスを許可してPCと接続する。|
 |2|Oculus Quest2のメニュー/設定から「Oculus Link」を選択してRiftにする。|
 |3|VRChatを起動してログインし、Settingを開いて、しゃべってみてMicrophoneの「Headsdet Microphone(Oculus Virtual Audio Device)」が反応するか確認する。|
-|4|反応しなかったら、Oculusボタンを押し、Riftのメニューから「Oculus Linkをオフにする」を選択し「オフにする」を選択すると、Oculus Quest2のメニュー/設定に戻り、少し経つと「Oculus Link」が一旦消える。データのアクセスを許可を求められれば許可する。<br>※一旦消える前に「Oculus Link」を選ぶとVRChatで地面に潜らず再起動する必要も無く手間が少なくなる。|
+|4|反応しなかったら、Oculusボタンを押し、Riftのメニューから「Oculus Linkをオフにする」を選択し「オフにする」を選択すると、Oculus Quest2のメニュー/設定に戻り、少し経つと「Oculus Link」が一旦消える。データのアクセスを許可を求められれば許可する。<br>~~※一旦消える前に「Oculus Link」を選ぶとVRChatで地面に潜らず再起動する必要も無く手間が少なくなる。(この技が使えなくなっている)~~|
 |5|Oculus Quest2のメニュー/設定に再び「Oculus Link」が表示されるので、選択して再度Riftにする。|
 |6|VRChat画面に戻る(私の環境ではこの時地面に潜っていることがあり、その場合はVRChatを再起動する。私の場合はOculusボタンを押し、Riftのメニューから「ホーム」を選択してVRChatを閉じています)|
 |7|再びVRChatにログインしてSettingを開き、しゃべってみてMicrophoneの「Headsdet Microphone(Oculus Virtual Audio Device)」反応するか確認する。|
