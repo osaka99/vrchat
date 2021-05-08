@@ -5,7 +5,7 @@ description: VRChatをOculus Quest2単体やOculus LinkでPC接続して楽し�
 lang: ja_JP
 author: osaka99
 date: 2021-01-18T00:00+09:00
-last_modified_at: 2021-04-09T18:50+09:00
+last_modified_at: 2021-04-14T23:00+09:00
 ---
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-10FN64D8YF"></script>
@@ -173,7 +173,8 @@ Touch+ = Touch or Click or Hold、Click+ = Click or Hold
 
 ### Oculus Quest2+Oculus LinkでVRChatにPC接続しマイクが認識されない
 
-既知の不具合らしく、下記のような手順を取る必要があります(全然直らない)
+~~既知の不具合らしく、下記のような手順を取る必要があります。~~
+ようやく修正されたようです(2021/04/13)
 
 |No|内容|
 |--|--|
